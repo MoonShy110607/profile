@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #dbeafe;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #2563eb, #60a5fa);
+    padding: 20px 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.navbar ul li:hover{
+    color: #dbeafe;
+    transform: scale(1.05);
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #dbeafe;
+}
+
+.left {
+    margin-right: auto;
+    margin-left: 0;
+    font-size: 22px;
+}
+
+/* Profile */
+.profile{
+    text-align: center;
+    margin-top: -10px;
+}
+
+.profile img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 6px solid white;
+    object-fit: cover;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Card */
+.card {
+    background: white;
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Row */
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom: 1px solid #bfdbfe;
+    font-size: 18px;
+}
+
+.row:last-child {
+    border-bottom: none;
+}
+
+.row span:first-child{
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.row span:last-child{
+    color: #374151;
+}
+.header{
+    text-align: center;
+    margin-top: 40px;
+    color: #1e3a8a;
+}
+
+.header h1{
+    font-size: 40px;
+}
+
+.header p{
+    margin-top: 10px;
+    color: #374151;
+}
+.container{
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card1{
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    width: 300px;
+}
+
+.card1:hover{
+    transform: translateY(-8px);
+}
+.card1 img{
+    width: 100%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 20px 20px 0 0;
+    box-sizing: border-box;
+}
+
+.card1 h3{
+    padding: 15px 15px 5px;
+    color: #2563eb;
+}
+
+.card1 p{
+    padding: 0 15px 20px;
+    color: #4b5563;
+}
